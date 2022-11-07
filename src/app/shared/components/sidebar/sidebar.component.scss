@@ -1,0 +1,19 @@
+:host {
+  .mat-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .mat-list-item {
+    color: #eee;
+    text-align: left;
+  }
+  .mat-subheader {
+    color: rgba(195, 195, 14, 0.775);
+  }
+}
+
+mat-nav-list {
+  padding: 5px;
+  color: rgb(212, 209, 209);
+}
+

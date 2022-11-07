@@ -1,0 +1,33 @@
+<mat-nav-list>
+
+  <mat-divider></mat-divider>
+  <a mat-list-item href="/">Dashboard</a>
+
+  <mat-divider></mat-divider>
+
+  <button mat-button [matMenuTriggerFor]="menu">
+    <mat-icon>search_outline</mat-icon>
+    Search by
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Account</button>
+    <button mat-menu-item>Date</button>
+    <button mat-menu-item>Range</button>
+  </mat-menu>
+
+  <mat-divider></mat-divider>
+
+  <h2 matSubheader>Documents</h2>
+  <a mat-list-item href="statements">Statements</a>
+  <a mat-list-item href="statements">Letters</a>
+  <a mat-list-item href="statements">Direct Documents</a>
+  <a mat-list-item href="statements">Disclosures</a>
+
+  <mat-divider></mat-divider>
+
+  <h2 matSubheader>Interfaces</h2>
+  <a mat-list-item href="statements">Nova</a>
+
+  <mat-divider></mat-divider>
+</mat-nav-list>
+
